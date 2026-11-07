@@ -1,0 +1,32 @@
+{
+    "include":  [
+                    "src/**/*"
+                ],
+    "exclude":  [
+                    "node_modules",
+                    "dist",
+                    "**/*.spec.ts",
+                    "**/*.test.ts"
+                ],
+    "compilerOptions":  {
+                            "resolveJsonModule":  true,
+                            "declarationMap":  true,
+                            "strict":  true,
+                            "lib":  [
+                                        "ES2022"
+                                    ],
+                            "moduleResolution":  "bundler",
+                            "target":  "ES2022",
+                            "esModuleInterop":  true,
+                            "rootDir":  "./src",
+                            "checkJs":  false,
+                            "noEmitOnError":  true,
+                            "sourceMap":  true,
+                            "forceConsistentCasingInFileNames":  true,
+                            "outDir":  "./dist",
+                            "skipLibCheck":  true,
+                            "declaration":  true,
+                            "allowJs":  true,
+                            "module":  "ESNext"
+                        }
+}

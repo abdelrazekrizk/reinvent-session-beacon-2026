@@ -1,0 +1,18 @@
+{
+    "version":  "0.1.0",
+    "name":  "@Session-Beacon/contracts",
+    "description":  "Shared API contracts and TypeScript schemas",
+    "scripts":  {
+                    "lint":  "eslint src --ext ts",
+                    "build":  "tsc",
+                    "type-check":  "tsc --noEmit"
+                },
+    "type":  "module",
+    "dependencies":  {
+                         "zod":  "^4.6.7"
+                     },
+    "devDependencies":  {
+                            "@types/node":  "^26.6.6",
+                            "typescript":  "^7.0.2"
+                        }
+}

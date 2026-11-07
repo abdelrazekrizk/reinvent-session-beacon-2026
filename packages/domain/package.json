@@ -1,0 +1,21 @@
+{
+    "version":  "0.1.0",
+    "name":  "@Session-Beacon/domain",
+    "description":  "Session-Beacon business logic and domain models",
+    "scripts":  {
+                    "test":  "vitest",
+                    "lint":  "eslint src --ext ts",
+                    "build":  "tsc",
+                    "type-check":  "tsc --noEmit"
+                },
+    "type":  "module",
+    "dependencies":  {
+                         "zod":  "^4.6.7",
+                         "uuid":  "^14.0.3"
+                     },
+    "devDependencies":  {
+                            "typescript":  "^7.0.2",
+                            "vitest":  "^5.1.0",
+                            "@types/node":  "^26.6.6"
+                        }
+}

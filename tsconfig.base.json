@@ -1,0 +1,14 @@
+{
+    "compilerOptions":  {
+                            "sourceMap":  true,
+                            "declaration":  true,
+                            "module":  "ESNext",
+                            "moduleResolution":  "bundler",
+                            "strict":  true,
+                            "target":  "ES2022",
+                            "resolveJsonModule":  true,
+                            "lib":  [
+                                        "ES2022"
+                                    ]
+                        }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "name": "@Session-Beacon/infra",
+  "description": "Session-Beacon AWS CDK infrastructure",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "type-check": "tsc --noEmit --project tsconfig.json",
+    "cdk:destroy": "cdk destroy",
+    "cdk:deploy": "cdk deploy",
+    "cdk": "cdk",
+    "cdk:diff": "cdk diff",
+    "cdk:synth": "cdk synth"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.275.0",
+    "constructs": "^10.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "ts-node": "^10.9.2",
+    "esbuild": "^0.28.2",
+    "@types/node": "^26.6.6",
+    "@types/aws-lambda": "^8.10.164",
+    "aws-cdk": "^2.1148.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "scripts":  {
+                    "lint":  "turbo run lint",
+                    "test":  "turbo run test",
+                    "format":  "prettier --write \u0027**/*.{ts,tsx,js,jsx,json,md}\u0027",
+                    "format:check":  "prettier --check \u0027**/*.{ts,tsx,js,jsx,json,md}\u0027",
+                    "build":  "turbo run build",
+                    "type-check":  "turbo run type-check",
+                    "dev":  "turbo run dev",
+                    "clean":  "turbo run clean \u0026\u0026 rm -rf node_modules dist .turbo"
+                },
+    "description":  "An unofficial AWS re:Invent 2026 planner for session discovery, personal schedules, team coordination, AI recommendations, and virtual networking",
+    "type":  "module",
+    "version":  "0.1.0",
+    "engines":  {
+                    "node":  "24.22.2",
+                    "npm":  "\u003e=10.0.0"
+                },
+    "name":  "Session-Beacon",
+    "private":  true,
+    "workspaces":  [
+                       "apps/*",
+                       "packages/*"
+                   ],
+    "devDependencies":  {
+                            "@typescript-eslint/eslint-plugin":  "^8.72.1",
+                            "eslint":  "^10.14.0",
+                            "prettier":  "^3.9.10",
+                            "typescript":  "^7.0.2",
+                            "turbo":  "^2.11.10",
+                            "@types/node":  "^26.6.6",
+                            "@typescript-eslint/parser":  "^8.72.1"
+                        }
+}

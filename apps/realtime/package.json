@@ -1,0 +1,27 @@
+{
+    "version":  "0.1.0",
+    "name":  "@Session-Beacon/realtime",
+    "description":  "Session-Beacon WebSocket real-time services",
+    "scripts":  {
+                    "test":  "vitest",
+                    "lint":  "eslint src --ext ts",
+                    "build":  "tsc",
+                    "dev":  "tsc --watch",
+                    "type-check":  "tsc --noEmit"
+                },
+    "type":  "module",
+    "dependencies":  {
+                         "zod":  "^4.6.7",
+                         "uuid":  "^14.0.3",
+                         "aws-lambda":  "^1.0.7",
+                         "@aws-sdk/client-dynamodb":  "^3.1164.0",
+                         "@aws-sdk/lib-dynamodb":  "^3.1164.0",
+                         "@aws-sdk/client-apigatewaymanagementapi":  "^3.1164.0"
+                     },
+    "devDependencies":  {
+                            "typescript":  "^7.0.2",
+                            "vitest":  "^5.1.0",
+                            "@types/aws-lambda":  "^8.10.164",
+                            "@types/node":  "^26.6.6"
+                        }
+}

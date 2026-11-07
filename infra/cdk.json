@@ -1,0 +1,6 @@
+{
+  "app": "npx ts-node --project tsconfig.json lib/app.ts",
+  "context": {
+    "availability-zones:account=123456789:region=us-east-1": ["us-east-1a", "us-east-1b"]
+  }
+}
